@@ -9,7 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# current_day_name = datetime.datetime.now().strftime('%A')
+# current_day_name = datetime.datetime.now().strftime('%A')!!!
 current_day_name = 'Friday'
 
 excel_file = "Excel.xlsx"
